@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Sea Isle City DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Sea Isle City boundary, adaptively resampled to 5.8 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.77785142422415,
+  "pixelSizeFeet": 5.832845879977161,
+  "adaptiveResolution": true,
+  "width": 3026,
+  "height": 5290,
+  "nodata": -999999,
+  "minMeters": -1.47,
+  "maxMeters": 8.975,
+  "meanMeters": 1.039,
+  "stdDevMeters": 1.368,
+  "minFeet": -4.82283464565,
+  "maxFeet": 29.445538057625,
+  "webMercatorBounds": [
+    -8317600.504063,
+    4738579.135801855,
+    -8312220.725653297,
+    4747983.969836
+  ],
+  "leafletBounds": [
+    [
+      39.1179482,
+      -74.7182766
+    ],
+    [
+      39.1834541,
+      -74.6699637
+    ]
+  ],
+  "files": {
+    "demCog": "sea_isle_city_dem_5ft_cog.tif",
+    "hillshadeCog": "sea_isle_city_hillshade_cog.tif",
+    "hillshadePng": "sea_isle_city_hillshade.png",
+    "boundaryGeojson": "sea_isle_city_boundary.geojson"
+  }
+}
